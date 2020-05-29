@@ -2,7 +2,6 @@
 name: CI
 
 # 언제 액션이 이루어질 지 정할 수 있다. 아래에 브랜치를 지정해주면 된다.
-# 우리는 deploy 브랜치에 Push되면 자동 배포하도록 정의할 것이다.
 on:
   push:
     branches: [ deploy-action ]
